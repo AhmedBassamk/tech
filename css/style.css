@@ -1,0 +1,479 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Reem Kufi', sans-serif; 
+}
+body{
+background-color: rgb(243, 239, 239) !important;
+    animation:backg 5s infinite ;
+    -webkit-animation:backg 5s infinite ;
+}
+@keyframes backg{
+    0%{
+        box-shadow: inset 0 0 15px white;
+    }
+    50%{
+        box-shadow: inset 0 0 5px rgb(3, 3, 182);
+    }
+    100%{
+        box-shadow: inset 0 0 15px white;
+    }
+}
+.video video{
+    width: 100%;
+}
+.video {
+    position: relative;
+    height: 649px;
+    overflow: hidden;
+    height: 713px;
+}
+header{
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    width: 370px;
+}
+.a img{
+    width: 170px !important;
+}
+.logo{
+    animation: scale 6s infinite !important ;
+    -webkit-animation: scale 6s infinite !important ;
+}
+@keyframes scale{
+    0%{
+        transform:rotatey(10deg);
+        -webkit-transform:rotatey(10deg);
+        -moz-transform:rotatey(10deg);
+        -ms-transform:rotatey(10deg);
+        -o-transform:rotatey(10deg);
+}
+    50%{
+        transform:rotatey(150deg);
+        -webkit-transform:rotatey(150deg);
+        -moz-transform:rotatey(150deg);
+        -ms-transform:rotatey(150deg);
+        -o-transform:rotatey(150deg);
+}
+    100%{
+        transform:rotatey(10deg);
+        -webkit-transform:rotatey(10deg);
+        -moz-transform:rotatey(10deg);
+        -ms-transform:rotatey(10deg);
+        -o-transform:rotatey(10deg);
+}
+}
+.logo{
+    padding: 0 30px;
+}
+.links{
+    padding: 0 30px;
+}
+.links a{
+padding: 15px;
+color: white;
+z-index: 111111;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    top: 100px;
+}
+.nn{
+    position:absolute ;
+    top: 80px;
+}
+
+.form-abs{
+    border: 2px solid rgb(143, 143, 151);
+    text-align: center;
+    padding: 15px;
+    transition: .5s;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: white;
+    box-shadow: 0 0 10px rgb(140, 140, 145);
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    
+}
+.form-abs p{
+    font-size: 25px;
+    text-shadow: 0 0 10px rgb(255, 166, 0);
+}
+form{
+    /* text-align: left; */
+    margin-top: 10px;
+}
+.form-abs input{
+    margin-top: 10px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    border: none;
+    border: 2px solid rgb(139, 139, 146);
+    box-shadow: 0 0 10px rgb(127, 127, 134);
+    color: white;
+    background-color: transparent;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.form-abs button{
+    background-color: rgb(255, 85, 7);
+    padding: 5px 30px;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.form-abs button a{
+    color: white;
+}
+.form-abs input:focus{
+background-color: black;
+border: 2px solid rgb(3, 3, 139);
+outline: none;
+}
+.form-abs:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.center{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.welcome{
+    width: 350px;
+    height: 250px;
+    padding: 15px;
+    border-radius: 10px;
+    background: linear-gradient(to top , transparent ,rgb(3, 3, 139) );
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.machine{
+    font-size: 17px;
+    color: white;
+    line-height: 35px;
+    font-family: 'El Messiri', sans-serif
+}
+.up{
+    background-color: transparent !important;
+    color: orangered !important;
+    text-shadow: 0 0 10px white;
+    border: 1px solid rgb(255, 85, 7);
+    padding: 5px;
+    position: relative;
+    bottom: 25px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    font-size: 12px;
+}
+.up:hover{
+background-color: rgb(255, 85, 7) !important;
+border: 1px solid white;
+color: white !important;
+}
+.center{
+    text-align: center;
+    /* height: 90px; */
+}
+.cards{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    justify-content: space-around;
+    background: linear-gradient(to left, rgb(3, 3, 182) , rgb(3, 3, 85));
+    position: relative;
+    bottom: 100px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    box-shadow: 0 0 5px white;
+}
+.courses{
+    display: flex;
+    width: 30%;
+    align-items: center;
+    margin: auto;
+    height: 150px;
+    justify-content: space-around;
+    background: linear-gradient(to left, rgb(3, 3, 182) , rgb(3, 3, 85));
+    position: relative;
+    bottom: 150px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    box-shadow: 0 0 5px white;
+}
+h4{
+    font-size: 20px !important;
+}
+.courses p{
+    font-size: 35px;
+    color: white;
+    text-shadow: 0 0 20px blue;
+    font-family: fantasy;
+    animation: shadow 5s infinite;
+    -webkit-animation: shadow 5s infinite;
+}
+@keyframes shadow{
+0%{
+    text-shadow: 0 0 20px blue;
+
+}
+50%{
+    text-shadow: 0 0 20px white;
+
+}
+100%{
+    text-shadow: 0 0 20px blue;
+
+}
+}
+.two .card-img-top{
+height: 160px !important;
+}
+.card{
+    text-align: center;
+    box-shadow: 0 0 10px white;
+}
+.card h5{
+    color: rgb(1, 1, 134);
+    font-size: 25px;
+    margin-bottom: 25px !important;
+}
+.background{
+    background-image: url(../thumb2-css-code-4k-computer-code-programming-css-tags.jpg);
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background p {
+    background-color: rgba(255, 255, 255, 0.568);
+    padding: 5px;
+    color: black;
+}
+.size{
+    font-size: 30px;
+    text-shadow: 0 0 10px blue;
+}
+.list {
+    width: 300px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 0 15px ;
+    /* height: 300px ; */
+    padding: 5px;
+    margin: 5px;
+    background-color: white;
+}
+
+
+.list .imege{
+    position: relative;
+}
+
+.list .layout-imges {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: .8px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 74%;
+    background-color: rgba(0, 0, 0, 0.265);
+}
+.list .imege img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.list .cap {
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: .8s;
+}
+
+.list .Text {
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    transform: translateY(100px);
+    opacity: 0;
+    /* border: 1px solid; */
+    box-shadow: 0 4px 5px gray ;
+    transition: .8s;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+}
+
+.list .Text h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    
+}
+
+.list .Text p {
+    color: #777;
+
+}
+
+.list:hover .Text {
+    transform: translateY(-65px);
+    opacity: 1;
+    -webkit-transform: translateY(-65px);
+    -moz-transform: translateY(-65px);
+    -ms-transform: translateY(-65px);
+    -o-transform: translateY(-65px);
+}
+.list:hover .cap {
+    transform: translateY(195px);
+    opacity: 0;
+    -webkit-transform: translateY(195px);
+    -moz-transform: translateY(195px);
+    -ms-transform: translateY(195px);
+    -o-transform: translateY(195px);
+}
+.list:hover  {
+   box-shadow: 0 0 5px;
+}
+.list:hover .layout-imges {
+    background-color: rgba(0, 0, 0, 0);
+}
+.sizeOne img{
+    height: 195px;
+}
+.AllCard{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 20px 0;
+}
+.parent{
+    margin: 80px 0;
+    width: 100%;
+}
+.top{
+    top: -70px;
+    text-align: center;
+}
+.Contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0 10px gray;
+    height: 200px;
+}
+.Contact form{
+    position: relative;
+}
+.Contact form #em{
+width: 600px;
+padding: 10px 25px;
+
+}
+#su{
+padding: 10px 25px;
+position: absolute;
+right: 0;
+background-color: rgb(255, 85, 7);
+border: none;
+color: white;
+height: 100%;
+}
+footer{
+    background-color: rgb(3, 3, 85);
+    /* height: 200px; */
+    display: flex !important;
+    justify-content: space-around;
+    /* align-items: center; */
+    padding: 50px ;
+}
+footer a{
+    color: white;
+}
+footer p {
+    color: white;
+    font-size: 25px;
+}
+.fx{
+    display: flex;
+    flex-direction: column;
+}
+a:hover{
+    text-decoration: none !important;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    color: white !important;
+}
+.logoFoot{
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+/*  font-family: 'El Messiri', sans-serif; 
+     font-family: 'Grand Hotel', cursive; 
+     font-family: 'Qahiri', sans-serif; 
+     font-family: 'Reem Kufi', sans-serif; */
